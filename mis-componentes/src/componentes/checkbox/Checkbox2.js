@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import './cbstyle2.css'
 
-class Checkbox_1 extends React.Component {
+class Checkbox2 extends React.Component {
 
     render() {
         return (
@@ -14,4 +14,4 @@ class Checkbox_1 extends React.Component {
     }
 }
 
-export default Checkbox_1
+export default Checkbox2

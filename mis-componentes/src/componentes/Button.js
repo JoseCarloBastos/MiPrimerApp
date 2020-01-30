@@ -10,7 +10,7 @@ class Button extends React.Component {
                 <div>
                     <h1>BUTTONS</h1>
                 </div>
-                <div className=" row">
+                <div className="row">
                     <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         <button className="mainB-1">Button-Style-1</button>
                     </div>

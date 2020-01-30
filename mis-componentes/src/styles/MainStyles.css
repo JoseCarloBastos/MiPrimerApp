@@ -10,6 +10,11 @@
     box-shadow: 4px 3px 50px gray;
 }
 
+h1{
+    background: rgb(60,179,113,0.2);
+    border-bottom: 1px solid mediumseagreen; 
+}
+
 .mainCol {
     text-align: center;
     margin: 20px 0px;
