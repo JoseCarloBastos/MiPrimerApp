@@ -1,0 +1,8 @@
+background-color:Tomato => Rojo
+background-color:Orange => Naranja
+background-color:DodgerBlue => Azul
+background-color:MediumSeaGreen => Verde
+background-color:Gray => Gris
+background-color:SlateBlue => Violeta
+background-color:Violet => Rosado
+background-color:LightGray => Gris Claro

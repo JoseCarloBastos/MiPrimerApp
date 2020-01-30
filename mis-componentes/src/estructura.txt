@@ -1,0 +1,29 @@
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/MainStyles.css'
+
+class  extends React.Component {
+
+    render() {
+        return (
+            <div className="mainSpace">
+                <div>
+                    <h1></h1>
+                </div>
+                <div className=" row">
+                    <div className="col mainCol">
+                        
+                    </div>
+                    <div className="col mainCol">
+                        
+                    </div>
+                    <div className="col mainCol">
+                        
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default 
