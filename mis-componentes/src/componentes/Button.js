@@ -11,13 +11,13 @@ class Button extends React.Component {
                     <h1>BUTTONS</h1>
                 </div>
                 <div className=" row">
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         <button className="mainB-1">Button-Style-1</button>
                     </div>
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         <button className="mainB-2">Button-Style-2</button>
                     </div>
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         <button className="mainB-3">Button-Style-3</button>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/MainStyles.css'
 
-class  extends React.Component {
+class extends React.Component {
 
     render() {
         return (
@@ -11,19 +11,20 @@ class  extends React.Component {
                     <h1></h1>
                 </div>
                 <div className=" row">
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         
                     </div>
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         
                     </div>
-                    <div className="col mainCol">
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
                         
                     </div>
                 </div>
             </div>
         )
     }
+
 }
 
-export default 
+export default

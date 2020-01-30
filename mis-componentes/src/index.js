@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 //componentes
 import Button from './componentes/Button'
-import Checkbox from './componentes/Checkbox'
+import Checkbox from './componentes/checkbox/Checkbox'
 import Input from './componentes/Input'
 
 //imagenes

@@ -1,6 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/MainStyles.css'
+import './checkbox.css'
+
+//componentes
+import Checkbox1 from './Checkbox1'
+import Checkbox2 from './Checkbox2'
+import Checkbox3 from './Checkbox3'
 
 class Checkbox extends React.Component {
 
@@ -11,14 +16,14 @@ class Checkbox extends React.Component {
                     <h1>CHECKBOX</h1>
                 </div>
                 <div className=" row">
-                    <div className="col mainCol">
-                        <input type="checkbox" className="mainCB-1" name="vehicle3" value="Boat" checked />
+                <div className="col mainCol">
+                        <Checkbox1/>
                     </div>
                     <div className="col mainCol">
-                        <input type="checkbox" className="mainCB" name="vehicle3" value="Boat" checked />
+                        <Checkbox2/>
                     </div>
                     <div className="col mainCol">
-                        <input type="checkbox" className="mainCB" name="vehicle3" value="Boat" checked />
+                        <Checkbox3/>
                     </div>
                 </div>
             </div>
