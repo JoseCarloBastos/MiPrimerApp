@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import './cbstyle1.css'
 
 class Checkbox1 extends React.Component {
 
