@@ -24,8 +24,25 @@ h1{
     color: mediumseagreen;
     border-bottom: 1px solid mediumseagreen;
     margin: 0px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
 }
 
 .encabezado:hover{
     background: rgb(60,179,113,0.2);
+}
+
+.dropdown-toggle:after{
+    width: 5px;
+    height: 5px;
+    font-size: 30px;
+}
+
+.dibujo{
+    width: 1px;
+    height: 1px;
+    position: left;
+    display: inline-block;
+    position: absolute;
 }

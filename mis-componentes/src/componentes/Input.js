@@ -8,16 +8,27 @@ class Input extends React.Component {
         super(props)
         this.state = {
             visible: 'none',
+            transform: 'rotate(90deg)',
+            right: '20px',
+            top: '14px'
         }
         this.handleOnClick = this.handleOnClick.bind(this);
     }
 
     handleOnClick(event) {
         if (this.state.visible == 'none') {
-            return this.setState({ visible: 'inherit' })
+            this.setState({ visible: 'initial' })
+            this.setState({ transform: 'rotate(0deg)' })
+            this.setState({ right: '55px' })
+            this.setState({ top: '0px' })
+
         } else {
-            return this.setState({ visible: 'none' })
+            this.setState({ visible: 'none' })
+            this.setState({ transform: 'rotate(90deg)' })
+            this.setState({ right: '20px' })
+            this.setState({ top: '14px' })
         }
+        return this.state
     }
 
     render() {
@@ -27,7 +38,15 @@ class Input extends React.Component {
                     <h1
                         className="encabezado"
                         onClick={this.handleOnClick}
-                    >INPUTS</h1>
+                    >INPUTS
+                    <label
+                            className="dibujo dropdown-toggle"
+                            style={{
+                                transform: this.state.transform,
+                                right: this.state.right,
+                                top: this.state.top
+                            }}
+                        ></label></h1>
                 </div>
                 <div style={{ display: this.state.visible }}>
                     <div className="row" >
