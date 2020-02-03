@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-class extends React.Component {
+class ButtonGroup extends React.Component {
 
     constructor(props) {
         super(props)
@@ -37,7 +37,7 @@ class extends React.Component {
                     <h1
                         className="encabezado"
                         onClick={this.handleOnClick}
-                    >
+                    >BUTTON GROUPS
                     <label
                             className="dibujo dropdown-toggle"
                             style={{
@@ -50,19 +50,33 @@ class extends React.Component {
                 <div style={{ display: this.state.visible }}>
                     <div className="row" >
                         <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
-                        
+                            <div className="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-1-1">Left</button>
+                                <button type="button" class="btn btn-1-2">Middle</button>
+                                <button type="button" class="btn btn-1-3">Right</button>
+                            </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
-                        
+                            <div className="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-2-1">Left</button>
+                                <button type="button" class="btn btn-2-2">Middle-1</button>
+                                <button type="button" class="btn btn-2-2">Middle-2</button>
+                                <button type="button" class="btn btn-2-3">Right</button>
+                            </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mainCol">
-                        
+                            <div className="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-3-1">Left</button>
+                                <button type="button" class="btn btn-3-2">Middle</button>
+                                <button type="button" class="btn btn-3-3">Right</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         )
     }
+
 }
 
-export default
+export default ButtonGroup

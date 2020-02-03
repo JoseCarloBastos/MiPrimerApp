@@ -6,8 +6,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Button from './componentes/Button'
 import Checkbox from './componentes/checkbox/Checkbox'
 import Input from './componentes/Input'
+import ButtonGroup from './componentes/ButtonGroup'
 
 //estilos
+import './styles/ButtonGroup.css'
 import './styles/Button.css'
 import './styles/cbstyle1.css'
 import './styles/cbstyle2.css'
@@ -30,6 +32,9 @@ ReactDOM.render(
         </div>
         <div>
             <Checkbox />
+        </div>
+        <div>
+            <ButtonGroup />
         </div>
     </div>
 
