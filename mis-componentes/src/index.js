@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Button from './componentes/Button'
 import Checkbox from './componentes/checkbox/Checkbox'
 import Input from './componentes/Input'
+import Card from './componentes/Card'
 import ButtonGroup from './componentes/ButtonGroup'
 
 //estilos
@@ -18,6 +19,7 @@ import './styles/cbstyle4.css'
 import './styles/checkbox.css'
 import './styles/Formulario.css'
 import './styles/Input.css'
+import './styles/Card.css'
 import './styles/MainStyles.css'
 
 //imagenes
@@ -30,6 +32,9 @@ ReactDOM.render(
         </div>
         <div>
             <Input />
+        </div>
+        <div>
+            <Card />
         </div>
         <div>
             <Checkbox />
