@@ -7,3 +7,6 @@ Bordes
     none ------------ sin borde y puede tener sombra
     ridge ----------- solo borde con relieve
     solid ----------- borde plano
+
+
+dotted, groove, hidden, inset, outset, none, ridge, solid

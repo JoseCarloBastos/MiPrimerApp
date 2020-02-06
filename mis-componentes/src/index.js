@@ -16,6 +16,7 @@ import './styles/cbstyle2.css'
 import './styles/cbstyle3.css'
 import './styles/cbstyle4.css'
 import './styles/checkbox.css'
+import './styles/Formulario.css'
 import './styles/Input.css'
 import './styles/MainStyles.css'
 

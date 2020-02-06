@@ -15,7 +15,7 @@ class ButtonGroup extends React.Component {
     }
 
     handleOnClick(event) {
-        if (this.state.visible == 'none') {
+        if (this.state.visible === 'none') {
             this.setState({ visible: 'initial' })
             this.setState({ transform: 'rotate(0deg)' })
             this.setState({ right: '55px' })
