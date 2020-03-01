@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyledPanel = styled.div`
     width: 1800px; height: max-content;

@@ -8,7 +8,7 @@ export default class Mejora extends React.Component {
         return(
             <StyledMejora>
                 <h3>{nombre}</h3>
-                <img alt={nombre} src={img}/>
+                <img alt="" src={img}/>
                 <p>{efecto}</p>
             </StyledMejora>
         )

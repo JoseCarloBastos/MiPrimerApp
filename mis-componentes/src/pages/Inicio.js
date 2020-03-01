@@ -49,7 +49,7 @@ export default function InputDeviceInfo() {
                 <Versus competidor1="carro1" competidor2="carro2"/>
                 <Boton text="Select"/>
             </Panel>
-            <Panel>
+            <Panel titulo="Mejoras">
                 <Mejora nombre="Motor" img="" efecto=""></Mejora>
                 <Mejora nombre="Aceleracion" img="" efecto=""></Mejora>
                 <Mejora nombre="Agarre" img="" efecto=""></Mejora>
@@ -57,7 +57,7 @@ export default function InputDeviceInfo() {
                 <Mejora nombre="Transmision" img="" efecto=""></Mejora>
                 <Mejora nombre="Aerodinamico" img="" efecto=""></Mejora>
             </Panel>
-            <Panel>
+            <Panel titulo="Pistas">
                 <Mapa nombre="Campo" img={road1}></Mapa>
                 <Mapa nombre="Ciudad" img={road2}></Mapa>
                 <Mapa nombre="Autopista" img={road3}></Mapa>

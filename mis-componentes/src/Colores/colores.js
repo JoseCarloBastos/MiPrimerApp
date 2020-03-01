@@ -1,0 +1,5 @@
+export const COLOR_PRIMARY="#C29239"
+export const COLOR_SECUNDARY="#826226"
+export const COLOR_DARK="#423213"
+export const COLOR_LIGHT="#CF9B3C"
+export const COLOR_SHADOW="#A87E31"
