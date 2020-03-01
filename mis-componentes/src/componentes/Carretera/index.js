@@ -1,5 +1,7 @@
-import React from 'react'
-import StyledCarretera from './styled/carretera'
+import React from 'react';
+import StyledCarretera from './styled/carretera';
+import StyledLinea from './styled/linea';
+import linea from '../../img/linea.png';
 
 export default class Carretera extends React.Component {
 
@@ -13,8 +15,8 @@ export default class Carretera extends React.Component {
                 <StyledCarretera src={road} />
                 <StyledCarretera src={road} />
                 <StyledCarretera src={road} />
+                <StyledLinea src={linea} />
             </div>
-
         )
     }
 }
